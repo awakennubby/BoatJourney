@@ -1,0 +1,18 @@
+.BulletPoints{
+    text-align: center;
+    padding-inline-start: 0;
+    list-style: circle;
+    list-style-position: inside;
+    margin: 0 0 10px 0;
+}
+.ExpBulletPoints{
+    text-align: center;
+    padding-inline-start: 0;
+    list-style: none;
+    list-style-position: inside;
+    margin: 0 0 10px 0;
+}
+.Card-Info{
+    position: relative;
+    top: 0px;
+}
