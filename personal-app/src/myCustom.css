@@ -1,9 +1,25 @@
+.App{
+    background-color: #d4a373;
+}
 .BulletPoints{
     text-align: center;
     padding-inline-start: 0;
-    list-style: circle;
+    list-style: disc;
     list-style-position: inside;
     margin: 0 0 10px 0;
+}
+#pfp{
+    height: 300px;
+    width: auto;
+  }
+.BulletPointsList{
+    border: 10px;
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
 }
 .ExpBulletPoints{
     text-align: center;
@@ -12,7 +28,32 @@
     list-style-position: inside;
     margin: 0 0 10px 0;
 }
+#MainSection{
+    background-color: #7A8676;
+    border-radius: 15px;
+}
+.MainHeaders{
+    width: 100%; 
+    text-align: center;
+    margin: 20px 0 20px; 
+    text-decoration: underline;
+}
+ 
+.MainHeaders span { 
+    background:#7A8676; 
+    padding:0 10px; 
+}
 .Card-Info{
     position: relative;
     top: 0px;
+}
+.myImages{
+    width: 85%;
+    height: auto;
+}
+.Exp_sections{
+    
+}
+#ExpHeader{
+    background:#7A8676; 
 }
