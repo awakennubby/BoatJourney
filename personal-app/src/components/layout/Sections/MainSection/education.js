@@ -12,7 +12,7 @@ export default class Education extends React.Component{
         return (
             <Card className="border-1 Card-Info text-center">
             <Card.Body>
-                <CardHeader>
+                <CardHeader class="EducationCardHeader">
                 <Card.Title>{this.props.School}</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">{this.props.DegreeTitle} </Card.Subtitle>
                 <Card.Subtitle> {this.props.DateStart} - {this.props.DateEnd}</Card.Subtitle>
