@@ -15,8 +15,9 @@ export default class MyNavBar extends React.Component{
                 <Nav className="me-auto">
                     <Nav.Link href="#AboutMeHeader">Profile</Nav.Link>
                     <Nav.Link href="#ExpHeader">Experiences</Nav.Link>
+                    <Nav.Link href="#SkillsHeader">Skills</Nav.Link>
                     <Nav.Link href="#ProjectHeader">Projects</Nav.Link>
-                    <Nav.Link href="#Header">Contact</Nav.Link>
+                    <Nav.Link href="#ContactInfo">Contact</Nav.Link>
                     <NavDropdown title="Other Stuff!" id="basic-nav-dropdown">
                     <NavDropdown.Item href="#action/3.1">Music Production</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.2">Photography Portfolio</NavDropdown.Item>

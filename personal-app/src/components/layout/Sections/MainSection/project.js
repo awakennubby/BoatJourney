@@ -14,9 +14,7 @@ export default class Project extends React.Component{
         return (
             <Card className="border-1 Card-Info text-center">
             <Card.Body>
-                <CardHeader>
                 <Card.Title>{this.props.ProjectName}</Card.Title>
-                </CardHeader>
                 <Card.Text>
                 {/* <ul class="BulletPointsList">
                 { this.props.BulletPoints.map((filterItem) => {
