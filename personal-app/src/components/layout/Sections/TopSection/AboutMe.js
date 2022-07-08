@@ -10,14 +10,16 @@ export default class AboutMe extends React.Component{
         <Container>
         <h2 class="MainHeaders" id="AboutMeHeader">About Me</h2>
         <Row>
-            <Col sm={10}>
-                <p>Hi! I'm Daniel Nguyen, a recent Computer Science college graduate from the University of California, Davis.  I'm a curious developer who enjoys working with cool technology, regardless of the field! 
-                I love learning new things and am currently trying out some cool new hobbies.
-                I'm dabbling in several projects including: personal software projects, building out my own home server, music production, videography, and photography.
-                Feel free to browse through my website to see what exciting things I've worked on or am currently working on!
-                </p>
+            <Col></Col>
+            <Col sm={5}>
+                <Container>
+                Hi! I'm Daniel, a recent Computer Science graduate from the University of California, Davis and an incoming Software Engineering for SAP. 
+                I'm a curious developer who enjoys working with cool technology and exploring many of the different facets that this field has to offer! 
+                In my own personal life, I love learning new things and am currently trying out some cool new hobbies.
+                I'm currently dabbling in several projects including: personal software projects, building out my own home server, music production, videography, and photography.
+                </Container>
             </Col>
-            <Col sm={2}>
+            <Col sm={5}>
             <img src={GradPic} id="pfp"></img>
             </Col>
         </Row>
