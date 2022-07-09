@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
 .App{
   /*
   background-color: #d4a373;
   */
+}
+body{
+  font-family: 'Montserrat';
 }
 hr .solid{
   border-top: 5px solid white;
