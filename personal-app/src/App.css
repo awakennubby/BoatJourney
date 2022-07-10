@@ -2,7 +2,6 @@
 
 .App{
   color: white;
-  background-color: #25241F;
 }
 body{
   font-family: 'Montserrat';
@@ -10,28 +9,39 @@ body{
 hr .solid{
   border-top: 5px solid white;
 }
-/*
+
 #TopSection{
-  background-color: #B2AC88;
-  border-radius: 15px;
-  height: 40vh;
+  background-color: #5DADE2;
 }
 
 #MainSection{
-  background-color: #7A8676;
-  border-radius: 15px;
-  height: 220vh;
+  background-color: #3498DB;
 }
-#BottomSection{
-  background-color: #B2AC88;
-  border-radius: 15px;
-  height: 18vh;
+
+#ExpHeader{
+  background-color: #3498DB;
 }
-#SpaceFiller {
-  background-color:#d4a373;
-  height: 10px;
+#ExpLink{
+  background-color: #3498DB;
 }
-*/
+
+#EdSect{
+  background-color: #2E86C1;
+}
+#EducationHeader {
+  background-color: #2E86C1;
+}
+
+#ProjSect{
+  background-color: #2874A6;
+}
+
+#ProjectHeader{
+  background-color: #2874A6;
+}
+#Contact_Info{
+  background-color: #1B4F72 ;
+ }
 .BulletPoints{
   text-align: center;
   padding-inline-start: 0;
@@ -44,7 +54,9 @@ hr .solid{
   height: 300px;
   width: auto;
 }
+
 .BulletPointsList{
+  text-align: left;
   border: 10px;
   margin: 0;
   margin-block-start: 0;
@@ -53,18 +65,15 @@ hr .solid{
   margin-inline-end: 0;
   padding-inline-start: 0;
 }
+
 .ExpBulletPoints{
-  text-align: center;
-  padding-inline-start: 0;
+  text-align: left;
   list-style: none;
-  list-style-position: inside;
-  margin: 0 0 10px 0;
 }
 
 .MainHeaders{
   width: 100%; 
-  text-align: center;
-  margin: 20px 0 20px;
+  /*text-align: center;*/
   position: relative;
 }
 
@@ -74,6 +83,7 @@ hr .solid{
   */
   padding:0 10px; 
 }
+
 .Card-Info{
   position: relative;
   top: 0px;
@@ -82,15 +92,7 @@ hr .solid{
   width: 85%;
   height: auto;
 }
-/*
-.Exp_sections{
-  
-}
 
-#ExpHeader{
-  background:#7A8676; 
-}
-*/
 #PersonalLogo{
   height:60px;
   width: auto;
@@ -125,9 +127,6 @@ hr .solid{
   width: 60px;
   height:auto;
 }
-#Contact_Info{
- 
-}
 
 #ContactHeaderSpan{
   
@@ -141,11 +140,13 @@ border-radius: 50%;
 margin: 0 0 4px 5px;
 display: inline-block;
 }
+
 #Section_ID{
   height: 100%;
   width: 100%;
   object-fit:contain;
 }
+
 #Intro_Desc{
   font-weight: normal;
   font-size: 20px;

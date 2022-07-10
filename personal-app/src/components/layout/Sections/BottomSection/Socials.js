@@ -10,7 +10,7 @@ export default class ContactInfo extends React.Component{
     }
     render(){
         return(
-            <Container id="Contact_Info">
+            <Container fluid id="Contact_Info">
                 <h2 id="ContactHeader" className='MainHeaders'>
                     <span id="ContactHeaderSpan">Contact</span>
                     </h2>

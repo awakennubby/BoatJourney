@@ -8,7 +8,8 @@ export default class Project_Section extends React.Component{
     }
     render(){
         return(
-            <Container className="Exp_sections">
+            <Container fluid className="Exp_sections" id="ProjSect">
+                <h2 class="MainHeaders" id="ProjectHeader"><span>Projects</span></h2>
                 <ul class="BulletPointsList">
                     <li class="ExpBulletPoints">
                         <Project ProjectName="Cuckoo For Coffee" 

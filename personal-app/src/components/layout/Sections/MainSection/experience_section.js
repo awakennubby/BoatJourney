@@ -9,10 +9,11 @@ export default class Experience_Section extends React.Component{
     render(){
         return(
             <Container fluid className="Exp_sections" id="ExpLink">
+            <h2 class="MainHeaders" id="ExpHeader"><span>Experience</span></h2>
                 <ul class="BulletPointsList">
                 <li class="ExpBulletPoints">
                     <Experience Job="SAP"
-                    DateStart="Janurary 2023"
+                    DateStart="Jan 2023"
                     DateEnd="Current"
                     JobTitle="Incoming Software Engineer"
                     Description="Meh"
@@ -22,7 +23,7 @@ export default class Experience_Section extends React.Component{
                 <li class="ExpBulletPoints">
                     <Experience Job="LibreTexts" 
                     DateStart="Jan 2022" 
-                    DateEnd="June 2022" 
+                    DateEnd="Jun 2022" 
                     JobTitle="Site Reliability Engineer" 
                     Description="Meh"
                     BulletPoints={["Responsible for maintaining a Kubernetes cluster that runs LibreTexts, JupyterHub, and BinderHub; services that allows instructors and students to write and execute code online",
@@ -41,7 +42,7 @@ export default class Experience_Section extends React.Component{
                 </li>
                 <li class="ExpBulletPoints">
                     <Experience Job="University of Oldenburg" 
-                    DateStart="June 2021" 
+                    DateStart="Jun 2021" 
                     DateEnd="Sept 2021" 
                     JobTitle="PHP Developer Intern" 
                     Description="Meh"
@@ -51,7 +52,7 @@ export default class Experience_Section extends React.Component{
                 </li>
                 <li class="ExpBulletPoints">
                     <Experience Job="University of California, Davis" 
-                    DateStart="June 2020" 
+                    DateStart="Jun 2020" 
                     DateEnd="Sept 2020" 
                     JobTitle="Research Intern" 
                     Description="Meh"

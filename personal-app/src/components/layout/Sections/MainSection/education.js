@@ -10,7 +10,7 @@ export default class Education extends React.Component{
     }
     render(){
         return (
-            <Container>
+            <Container fluid>
             <Card.Body>
                 <Row>
                     <Col>

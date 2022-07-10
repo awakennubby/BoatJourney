@@ -12,7 +12,7 @@ export default class Project extends React.Component{
     }
     render(){
         return (
-            <Container>
+            <Container fluid>
             <Card.Body>
                 <Card.Title>{this.props.ProjectName}</Card.Title>
                 <Card.Text>

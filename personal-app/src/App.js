@@ -13,9 +13,7 @@ function App() {
   return (
     <div className="App">
 
-      <Row>
       <MyNavBar></MyNavBar>
-      </Row>
 
       <Row>
         <Container id="Introduction">
@@ -33,26 +31,27 @@ function App() {
       <Row>
         <Container fluid id="TopSection">
           <AboutMe id="AboutMeHeader"></AboutMe>
+          {/* Add an a skills section and change formatting of photo */}
         </Container>
       </Row>
 
       <Row>
-        <Container id="MainSection">
-          <h2 class="MainHeaders" id="ExpHeader"><span>Experience</span></h2>
-          <Experience_Section></Experience_Section>
-          <h2 class="MainHeaders" id="EducationHeader"><span>Education</span></h2>
-          <Education_Section></Education_Section>
-          <h2 class="MainHeaders" id="ProjectHeader"><span>Projects</span></h2>
-          <Project_Section></Project_Section>
-        </Container>
+        <div id="MainSection">
+          <div id="ExpSect">
+            <Experience_Section></Experience_Section>
+          </div>
+          <div id="EdSect"> 
+            <Education_Section></Education_Section>
+          </div>
+          <div id="ProjSect">
+            <Project_Section></Project_Section>
+          </div>
+        </div>
       </Row>
 
       <Row>
-        <Container fluid id="BottomSection">
-          <ContactInfo></ContactInfo>
-        </Container> 
+      <ContactInfo id="BottomSection"></ContactInfo>
       </Row>
-      <div id="SpaceFiller"></div>
     </div>
   );
 }

@@ -8,7 +8,8 @@ export default class Education_Section extends React.Component{
     }
     render(){
         return(
-            <Container className="Exp_sections">
+            <Container fluid className="Exp_sections">
+                <h2 class="MainHeaders" id="EducationHeader"><span>Education</span></h2>
                 <ul class="BulletPointsList">
                     <li class="ExpBulletPoints">
                         <Education School="University of California, Davis" 
