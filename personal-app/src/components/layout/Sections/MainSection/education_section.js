@@ -12,23 +12,29 @@ export default class Education_Section extends React.Component{
                 <ul class="BulletPointsList">
                     <li class="ExpBulletPoints">
                         <Education School="University of California, Davis" 
-                        DateStart="2018" 
-                        DateEnd="2022" 
+                        DateStart="Sept 2018" 
+                        DateEnd="Mar 2022" 
                         DegreeTitle="Bachelor of Science, Computer Science" 
-                        Description="Meh"
-                        BulletPoints={["Responsible for maintaining a Kubernetes cluster that runs LibreTexts, JupyterHub, and BinderHub; services that allows instructors and students to write and execute code online",
-                        "Learned Prometheus, Puppet, Grafana, Helm, Docker to support the Kubernetes cluster",
-                        "Developed a queueing system in Python and launched a web application using Flask"]}/>
+                        Description="At UC Davis, I took several courses including: Data Structures and Algorithms, Object-Oriented Programming, Algorithm Design and Analysis,
+                        Prob and Stats for CS, Computer Architecture, Information Interfaces, Database Systems, Operating Systems, Study of Programming Languages/Compliers "
+                        BulletPoints={[]}/>
+                    </li>
+                    <li class="ExpBulletPoints">
+                        <Education School="Udemy"
+                        DateStart="June 2020"
+                        DateEnd="Aug 2020"
+                        DegreeTitle="Python and Django Full Stack Web Developer Bootcamp"
+                        Description="During this course, I learned the basics of web development using Django. In addition to this, 
+                        the course taught me how to use: HTML, CSS, Javascript, JQuery, Bootstrap, and SQLite."
+                        />
                     </li>
                     <li class="ExpBulletPoints">
                         <Education School="Garden Grove High School" 
-                        DateStart="2014" 
-                        DateEnd="2018" 
+                        DateStart="Aug 2014" 
+                        DateEnd="Jun 2018" 
                         DegreeTitle="High School Diploma" 
                         Description="Meh"
-                        BulletPoints={["Responsible for maintaining a Kubernetes cluster that runs LibreTexts, JupyterHub, and BinderHub; services that allows instructors and students to write and execute code online",
-                        "Learned Prometheus, Puppet, Grafana, Helm, Docker to support the Kubernetes cluster",
-                        "Developed a queueing system in Python and launched a web application using Flask"]}/>
+                        BulletPoints={[]}/>
                     </li>
                 </ul>
             </Container>

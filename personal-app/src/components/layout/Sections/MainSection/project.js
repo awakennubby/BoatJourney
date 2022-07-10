@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Card from 'react-bootstrap/Card';
+import {Card,Container} from 'react-bootstrap';
 import Image from 'react-bootstrap/Image'
 import CardHeader from 'react-bootstrap/CardHeader'
 import Coffee_Visual from '../../../../assets/images/Coffee_Visual.png'
@@ -12,7 +12,7 @@ export default class Project extends React.Component{
     }
     render(){
         return (
-            <Card className="border-1 Card-Info text-center">
+            <Container>
             <Card.Body>
                 <Card.Title>{this.props.ProjectName}</Card.Title>
                 <Card.Text>
@@ -33,7 +33,7 @@ export default class Project extends React.Component{
                 <a href={this.props.Links}>CoffeeVisualization</a>
                 </Card.Text>
             </Card.Body>
-            </Card>
+            </Container>
         )
     }
 }

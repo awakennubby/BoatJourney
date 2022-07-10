@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Card from 'react-bootstrap/Card';
+import {Card,Container,Row,Col} from 'react-bootstrap';
 import CardHeader from 'react-bootstrap/CardHeader'
 export default class Experience extends React.Component{
     constructor(props){
@@ -10,12 +10,22 @@ export default class Experience extends React.Component{
     }
     render(){
         return (
-            <Card className="border-1 Card-Info text-center">
+            <Container fluid>
             <Card.Body>
-                <Card.Title>{this.props.Job}</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">{this.props.JobTitle} </Card.Subtitle>
-                <Card.Subtitle> {this.props.DateStart} - {this.props.DateEnd}</Card.Subtitle>
-                <Card.Text>
+                <Row>
+                    <Col>
+                        <Card.Title>{this.props.Job}</Card.Title>
+                    </Col>
+                    <Col>
+                        <Card.Title>{this.props.JobTitle} </Card.Title>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                    <Card.Subtitle> {this.props.DateStart} - {this.props.DateEnd}</Card.Subtitle>
+                    </Col>
+                    <Col>
+                     <Card.Text>
                 <ul class="BulletPointsList">
                 { this.props.BulletPoints.map((filterItem) => {
                     return (
@@ -27,8 +37,10 @@ export default class Experience extends React.Component{
                     }
                 </ul>
                 </Card.Text>
+                    </Col>
+                </Row>
             </Card.Body>
-            </Card>
+            </Container>
         )
     }
 }

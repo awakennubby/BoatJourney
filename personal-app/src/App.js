@@ -12,7 +12,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 function App() {
   return (
     <div className="App">
+
+      <Row>
       <MyNavBar></MyNavBar>
+      </Row>
 
       <Row>
         <Container id="Introduction">
@@ -34,7 +37,7 @@ function App() {
       </Row>
 
       <Row>
-        <Container fluid id="MainSection">
+        <Container id="MainSection">
           <h2 class="MainHeaders" id="ExpHeader"><span>Experience</span></h2>
           <Experience_Section></Experience_Section>
           <h2 class="MainHeaders" id="EducationHeader"><span>Education</span></h2>

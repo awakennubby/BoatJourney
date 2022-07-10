@@ -8,7 +8,7 @@ export default class Experience_Section extends React.Component{
     }
     render(){
         return(
-            <Container className="Exp_sections" id="ExpLink">
+            <Container fluid className="Exp_sections" id="ExpLink">
                 <ul class="BulletPointsList">
                 <li class="ExpBulletPoints">
                     <Experience Job="SAP"
