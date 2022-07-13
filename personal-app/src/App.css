@@ -43,10 +43,14 @@ hr .solid{
   background-color: #2874A6;
 }
 
-#Contact_Info{
+#BottomSection{
   background-color: #1B4F72 ;
- }
+  text-align: center;
+}
 
+.ProjectLink{
+  color:white;
+}
 .BulletPoints{
   text-align: center;
   padding-inline-start: 0;
@@ -115,7 +119,7 @@ hr .solid{
 
 #Socials_list{
   
-  justify-content: left;
+  justify-content: center;
   display: flex;
 }
 #Gmail_Logo{

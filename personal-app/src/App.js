@@ -25,24 +25,34 @@ function App() {
           </Container>
         </div>
 
-        <Container fluid id="TopSection">
+        <div id="TopSection">
+          <Container>
           <AboutMe id="AboutMeHeader"></AboutMe>
+          </Container>
           {/* Add an a skills section and change formatting of photo */}
-        </Container>
+        </div>
 
         <div id="MainSect">
           <div id="ExpSect">
+            <Container>
               <Experience_Section></Experience_Section>
+            </Container>
             </div>
           <div id="EdSect"> 
+            <Container>
               <Education_Section></Education_Section>
+            </Container>
             </div>
-            <div id="ProjSect">
+          <div id="ProjSect">
+            <Container>
               <Project_Section></Project_Section>
-            </div>
+            </Container>
+          </div>
         </div>
         <div id="BottomSection">
-        <ContactInfo></ContactInfo>
+          <Container>
+            <ContactInfo></ContactInfo>
+          </Container>
         </div>
     </div>
   );

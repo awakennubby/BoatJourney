@@ -9,6 +9,7 @@ export default class Experience extends React.Component{
         JobTitle: "None", Description: "None", BulletPoints:"None"};
     }
     render(){
+        let descriptionOn= true;
         return (
             <Container fluid>
             <Card.Body>
@@ -26,7 +27,8 @@ export default class Experience extends React.Component{
                     </Col>
                     <Col>
                      <Card.Text>
-                <ul class="BulletPointsList">
+                {descriptionOn ? (this.props.Description):
+                ( <ul class="BulletPointsList">
                 { this.props.BulletPoints.map((filterItem) => {
                     return (
                                 <li class="BulletPoints" key={filterItem}>
@@ -35,7 +37,7 @@ export default class Experience extends React.Component{
                             );
                         })
                     }
-                </ul>
+                </ul>)}
                 </Card.Text>
                     </Col>
                 </Row>
