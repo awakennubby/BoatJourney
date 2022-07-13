@@ -10,29 +10,28 @@ export default class ContactInfo extends React.Component{
     }
     render(){
         return(
-            <Container fluid id="Contact_Info">
+            <div id="Contact_Info">
                 <h2 id="ContactHeader" className='MainHeaders'>
                     <span id="ContactHeaderSpan">Contact</span>
-                    </h2>
+                </h2>
                 <ul id="Socials_list">
                     <li class="Social_Link">
                         <a href="https://github.com/awakennubby">
-                            <Image src={Github_Logo} rounded responsive id="Github_Logo"></Image>
+                            <Image src={Github_Logo}responsive id="Github_Logo"></Image>
                         </a>
                     </li>
                     <li class="Social_Link">
                         <a href="https://www.linkedin.com/in/daniel-nguyen-a8a799177/">
-
-                            <Image src={LinkedIn_Logo} rounded responsive id="Linkedin_Logo"></Image>
+                            <Image src={LinkedIn_Logo} responsive id="Linkedin_Logo"></Image>
                         </a>
                     </li>
                     <li class="Social_Link">
                         <a href="mailto: codenubby@gmail.com">
-                            <Image src={Gmail_Logo} rounded responsive id="Gmail_Logo"></Image>
+                            <Image src={Gmail_Logo} responsive id="Gmail_Logo"></Image>
                         </a>
                     </li>
                 </ul>
-            </Container>
+            </div>
         )
     }
 }

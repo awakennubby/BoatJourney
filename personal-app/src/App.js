@@ -12,46 +12,38 @@ import { Container, Row, Col } from 'react-bootstrap';
 function App() {
   return (
     <div className="App">
-
       <MyNavBar></MyNavBar>
 
-      <Row>
-        <Container id="Introduction">
+        <div fluid id="Introduction">
         <img src={SectionBackground} id="Section_ID"></img>
-          <Container id="Name_Intro">
+          <Container fluid id="Name_Intro">
             <h1>Daniel D. Nguyen</h1>
             <hr class="solid"></hr>
             <p id="Intro_Desc">Software Engineer <span class="dot"></span> &nbsp;
             Music Producer <span class="dot"></span> &nbsp;
             Photographer</p>
           </Container>
-        </Container>
-      </Row>
+        </div>
 
-      <Row>
         <Container fluid id="TopSection">
           <AboutMe id="AboutMeHeader"></AboutMe>
           {/* Add an a skills section and change formatting of photo */}
         </Container>
-      </Row>
 
-      <Row>
-        <div id="MainSection">
+        <div id="MainSect">
           <div id="ExpSect">
-            <Experience_Section></Experience_Section>
-          </div>
+              <Experience_Section></Experience_Section>
+            </div>
           <div id="EdSect"> 
-            <Education_Section></Education_Section>
-          </div>
-          <div id="ProjSect">
-            <Project_Section></Project_Section>
-          </div>
+              <Education_Section></Education_Section>
+            </div>
+            <div id="ProjSect">
+              <Project_Section></Project_Section>
+            </div>
         </div>
-      </Row>
-
-      <Row>
-      <ContactInfo id="BottomSection"></ContactInfo>
-      </Row>
+        <div id="BottomSection">
+        <ContactInfo></ContactInfo>
+        </div>
     </div>
   );
 }

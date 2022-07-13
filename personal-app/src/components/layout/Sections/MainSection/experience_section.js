@@ -9,14 +9,14 @@ export default class Experience_Section extends React.Component{
     render(){
         return(
             <Container fluid className="Exp_sections" id="ExpLink">
-            <h2 class="MainHeaders" id="ExpHeader"><span>Experience</span></h2>
+            <h2 class="MainHeaders" id="ExpHeader">Experience</h2>
                 <ul class="BulletPointsList">
                 <li class="ExpBulletPoints">
                     <Experience Job="SAP"
                     DateStart="Jan 2023"
                     DateEnd="Current"
                     JobTitle="Incoming Software Engineer"
-                    Description="Meh"
+                    Description="I'm a new hire, but will be working in backend development!"
                     BulletPoints={[]}
                     />
                 </li>
