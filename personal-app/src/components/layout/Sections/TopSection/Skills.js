@@ -22,6 +22,8 @@ import reactIcon from '../../../../assets/icons/reactIcon.svg'
 import gitIcon from '../../../../assets/icons/gitIcon.svg'
 import d3jsIcon from '../../../../assets/icons/d3jsIcon.png'
 import vscodeIcon from '../../../../assets/icons/vscodeIcon.svg'
+import anacondaIcon from '../../../../assets/icons/anacondaIcon.svg'
+import vueIcon from '../../../../assets/icons/vueIcon.svg'
 import ReactDOM from 'react-dom/client';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -60,13 +62,15 @@ export default class Skills extends React.Component{
                 <img height={70} src={kubernetesIcon}></img>
                 <img height={70} src={mongodbIcon}></img>
                 <img height={70} src={mysqlIcon}></img>
+                <img height={70} src={anacondaIcon}></img>
                 </Col>
 
                 <Col>
                 <img height={70} src={nodejsIcon}></img>
-                <img height={70} src={phpIcon}></img>
                 <img height={70} src={reactIcon}></img>
                 <img height={70} src={pythonIcon}></img>
+                <img height={70} src={phpIcon}></img>
+                <img height={70} src={vueIcon}></img>
                 </Col>
             </Container>
         )

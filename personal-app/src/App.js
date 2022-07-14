@@ -9,7 +9,8 @@ import Project_Section from './components/layout/Sections/MainSection/project_se
 import MyNavBar from './components/layout/navbar/myNavBar';
 import ContactInfo from './components/layout/Sections/BottomSection/Socials';
 import Skills from './components/layout/Sections/TopSection/Skills';
-import { Container, Row, Col } from 'react-bootstrap';
+
+import { Container, Row, Col,Image } from 'react-bootstrap';
 function App() {
   return (
     <div className="App">

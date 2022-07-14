@@ -23,7 +23,7 @@ body{
 
 .solid {
   border-top: 2px solid white;
-  width: 40%;
+  width: 32%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -162,7 +162,10 @@ body{
   width: 60%;
   border: 2px solid white;
 }
-
+#myLogoBig{
+  width: 5%;
+  height: 5%;
+}
 .dot{
 height: 5px;
 width: 5px;
