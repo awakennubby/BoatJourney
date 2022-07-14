@@ -24,7 +24,7 @@ export default class Education extends React.Component{
                     <Col>
                     <Card.Subtitle> {this.props.DateStart} - {this.props.DateEnd}</Card.Subtitle>
                     </Col>
-                    <Col>{this.props.Description}</Col>
+                    <Col><p>{this.props.Description}</p></Col>
                 </Row>
                 <Card.Text>
                 {/*  <ul class="BulletPointsList">

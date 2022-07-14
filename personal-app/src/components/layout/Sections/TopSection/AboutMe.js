@@ -8,20 +8,16 @@ export default class AboutMe extends React.Component{
     render(){
         return (
         <Container fluid id="AboutMeSect">
-        <h2 class="MainHeaders" id="AboutMeHeader">About Me</h2>
-        <Row>
-            <Col>
-                <Container>
-                Hi! I'm Daniel, a recent Computer Science graduate from the University of California, Davis and an incoming Software Engineering for SAP. 
-                I'm a curious developer who enjoys working with cool technology and exploring the many different facets that this field has to offer! 
-                In my own personal life, I love learning new things and am currently trying out some cool new hobbies.
-                I'm currently dabbling in several projects including: personal software projects, building out my own home server, music production, videography, and photography.
-                </Container>
-            </Col>
-            <Col >
+            <Container fluid id="AboutMeTop">
+            <h2 class="MainHeaders" id="AboutMeHeader">About Me</h2>
             <img src={GradPic} id="pfp"></img>
-            </Col>
-        </Row>
+            </Container>
+            <Container>
+            <p> Hi! I'm Daniel, a recent Computer Science graduate from the University of California, Davis and an incoming Software Engineering for SAP. 
+            I'm a curious developer who enjoys working with cool technology and exploring the many different facets that this field has to offer! 
+            In my own personal life, I love learning new things and am currently trying out some cool new hobbies.
+            I'm currently dabbling in several projects including: personal software projects, building out my own home server, music production, videography, and photography.</p>
+            </Container>
         </Container>
         )
     }

@@ -3,33 +3,52 @@
 .App{
   color: white;
 }
+
+p{
+  line-height: 2;
+}
+.project_card{
+  border-color: black;
+  background-color: transparent;
+}
+.project_body{
+  background-color: #2874A6;
+}
 html{
   background-color: #1B4F72;
 }
 body{
   font-family: 'Montserrat';
 }
-hr .solid{
-  border-top: 5px solid white;
+
+.solid {
+  border-top: 2px solid white;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #TopSection{
   background-color: #5DADE2;
+  padding: 20px;
+  text-align: center;
 }
 
 #ExpSect{
   background-color: #3498DB;
+  padding: 20px;
 }
 
 #ExpHeader{
   background-color: #3498DB;
 }
-#ExpLink{
-  background-color: #3498DB;
+#AboutMeTop{
+  text-align: center;
 }
 
 #EdSect{
   background-color: #2E86C1;
+  padding: 20px;
 }
 #EducationHeader {
   background-color: #2E86C1;
@@ -37,6 +56,7 @@ hr .solid{
 
 #ProjSect{
   background-color: #2874A6;
+  padding: 20px;
 }
 
 #ProjectHeader{
@@ -49,7 +69,7 @@ hr .solid{
 }
 
 .ProjectLink{
-  color:white;
+  color: white;
 }
 .BulletPoints{
   text-align: center;
@@ -65,7 +85,7 @@ hr .solid{
   width: 200px;
   border: 4px solid black;
   border-radius: 50%;
-  top: -20px;
+
 }
 
 .BulletPointsList{
@@ -100,10 +120,6 @@ hr .solid{
   position: relative;
   top: 0px;
 }
-.myImages{
-  width: 85%;
-  height: auto;
-}
 
 #PersonalLogo{
   height:60px;
@@ -123,21 +139,17 @@ hr .solid{
   display: flex;
 }
 #Gmail_Logo{
-  width: 60px;
-  height: auto;
-  position: relative;
-  top: 5px;
+  height: 60px;
+
 }
 #Linkedin_Logo{
-  width: 60px;
-  height: auto;
-  position: relative;
-  top: 5px;
+  height: 60px;
+
 }
 
 #Github_Logo{
-  width: 60px;
-  height:auto;
+ height: 60px;
+
 }
 
 #ContactHeaderSpan{

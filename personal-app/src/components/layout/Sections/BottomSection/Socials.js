@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { NavDropdown,Nav,Navbar,Container,Image } from 'react-bootstrap';
-import Github_Logo from '../../../../assets/images/Github_Logo.png';
-import Gmail_Logo from '../../../../assets/images/Gmail_Logo.png';
-import LinkedIn_Logo from '../../../../assets/images/LinkedIn_Logo.png'
+import githubIcon from '../../../../assets/icons/githubIcon.svg';
+import gmailLogo from '../../../../assets/images/gmailLogo.svg';
+import linkedinLogo from '../../../../assets/images/linkedinLogo.svg'
 export default class ContactInfo extends React.Component{
     constructor(props){
         super(props);
@@ -17,17 +17,17 @@ export default class ContactInfo extends React.Component{
                 <ul id="Socials_list">
                     <li class="Social_Link">
                         <a href="https://github.com/awakennubby">
-                            <Image src={Github_Logo}responsive id="Github_Logo"></Image>
+                            <Image src={githubIcon}responsive id="Github_Logo"></Image>
                         </a>
                     </li>
                     <li class="Social_Link">
                         <a href="https://www.linkedin.com/in/daniel-nguyen-a8a799177/">
-                            <Image src={LinkedIn_Logo} responsive id="Linkedin_Logo"></Image>
+                            <Image src={linkedinLogo} responsive id="Linkedin_Logo"></Image>
                         </a>
                     </li>
                     <li class="Social_Link">
                         <a href="mailto: codenubby@gmail.com">
-                            <Image src={Gmail_Logo} responsive id="Gmail_Logo"></Image>
+                            <Image src={gmailLogo} responsive id="Gmail_Logo"></Image>
                         </a>
                     </li>
                 </ul>

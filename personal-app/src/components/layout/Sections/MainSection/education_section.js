@@ -34,7 +34,7 @@ export default class Education_Section extends React.Component{
                         DateStart="Aug 2014" 
                         DateEnd="Jun 2018" 
                         DegreeTitle="High School Diploma" 
-                        Description="Meh"
+                        Description="My first introduction to programming! In highschool, I had the privilege to tinker with Java."
                         BulletPoints={[]}/>
                     </li>
                 </ul>

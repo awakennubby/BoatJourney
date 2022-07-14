@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {Card,Container} from 'react-bootstrap';
+import {Card,Container,Button} from 'react-bootstrap';
 import Image from 'react-bootstrap/Image'
 import CardHeader from 'react-bootstrap/CardHeader'
 import Coffee_Visual from '../../../../assets/images/Coffee_Visual.png'
@@ -12,28 +12,20 @@ export default class Project extends React.Component{
     }
     render(){
         return (
-            <Container fluid>
-            <Card.Body>
+            <Card style={{ width: '18rem', border_color:'black' }} className="border-4 project_card">
+            <Card.Img variant="top" src={Coffee_Visual} className='myImages' />
+            <Card.Body className="project_body">
                 <Card.Title>
-                <a href={this.props.Links} className="ProjectLink">{this.props.ProjectName}</a>
+                {this.props.ProjectName}
                 </Card.Title>
                 <Card.Text>
-                {/* <ul class="BulletPointsList">
-                { this.props.BulletPoints.map((filterItem) => {
-                    return (
-                                <li class="BulletPoints" key={filterItem}>
-                                    <span>{filterItem}</span>
-                                </li>
-                            );
-                        })
-                    }
-                </ul> */}
                 {this.props.Description}
-                <br></br>
-                <Image src={Coffee_Visual} rounded responsive className='myImages'></Image>
                 </Card.Text>
+                <Button variant="primary">
+                    <a href={this.props.Links} className="ProjectLink">Project Link</a>
+                </Button>
             </Card.Body>
-            </Container>
+            </Card>
         )
     }
 }

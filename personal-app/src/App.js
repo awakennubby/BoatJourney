@@ -8,6 +8,7 @@ import Education_Section from './components/layout/Sections/MainSection/educatio
 import Project_Section from './components/layout/Sections/MainSection/project_section';
 import MyNavBar from './components/layout/navbar/myNavBar';
 import ContactInfo from './components/layout/Sections/BottomSection/Socials';
+import Skills from './components/layout/Sections/TopSection/Skills';
 import { Container, Row, Col } from 'react-bootstrap';
 function App() {
   return (
@@ -26,11 +27,15 @@ function App() {
         </div>
 
         <div id="TopSection">
-          <Container>
-          <AboutMe id="AboutMeHeader"></AboutMe>
-          </Container>
+            <Container fluid>
+            <Row>
+            <Col><AboutMe id="AboutMeHeader"></AboutMe></Col>
+            <Col><Skills></Skills></Col>
+            </Row>
+            </Container>
           {/* Add an a skills section and change formatting of photo */}
         </div>
+
 
         <div id="MainSect">
           <div id="ExpSect">
@@ -49,10 +54,13 @@ function App() {
             </Container>
           </div>
         </div>
+
         <div id="BottomSection">
           <Container>
             <ContactInfo></ContactInfo>
+            <p>All logos taken from <a href='https://www.icons8.com'> icons8 </a></p>
           </Container>
+
         </div>
     </div>
   );
