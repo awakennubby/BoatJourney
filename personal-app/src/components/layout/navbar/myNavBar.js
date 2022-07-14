@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { NavDropdown,Nav,Navbar,Container } from 'react-bootstrap';
 import MyLogo from '../../../assets/images/MyLogo.png';
+import Resume from '../../../assets/files/Resume_06_29_22.pdf'
 export default class MyNavBar extends React.Component{
     constructor(props){
         super(props);
@@ -15,7 +16,7 @@ export default class MyNavBar extends React.Component{
                 <Nav className="me-auto">
                     <Nav.Link href="#AboutMeHeader">Profile</Nav.Link>
                     <Nav.Link href="#ExpHeader">Experiences</Nav.Link>
-                    <Nav.Link href="#SkillsHeader">Skills</Nav.Link>
+                    <Nav.Link href="../../../assets/files/Resume_06_29_22.pdf" target="_blank">Resume</Nav.Link>
                     <Nav.Link href="#ProjectHeader">Projects</Nav.Link>
                     <Nav.Link href="#ContactInfo">Contact</Nav.Link>
                     <NavDropdown title="Other Stuff!" id="basic-nav-dropdown">

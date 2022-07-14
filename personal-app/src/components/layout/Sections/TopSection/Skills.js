@@ -31,8 +31,9 @@ import Col from 'react-bootstrap/Col';
 export default class Skills extends React.Component{
     render(){
         return(
+            <div>
+                 <h2>Tools I've used...</h2>
             <Container id="SkillSect">
-                <h2>Tools I've used...</h2>
                 <Col>
                 <img height={70} src={awsIcon}></img>
                 <img height={70} src={bashIcon}></img>
@@ -73,6 +74,7 @@ export default class Skills extends React.Component{
                 <img height={70} src={vueIcon}></img>
                 </Col>
             </Container>
+            </div>
         )
     }
 }
