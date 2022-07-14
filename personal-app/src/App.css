@@ -156,6 +156,13 @@ body{
   
 }
 
+#SkillSect{ 
+  background-color: 	#ade25d;
+  border-radius: 15%;
+  width: 60%;
+  border: 2px solid white;
+}
+
 .dot{
 height: 5px;
 width: 5px;

@@ -21,6 +21,7 @@ import pythonIcon from '../../../../assets/icons/pythonIcon.svg'
 import reactIcon from '../../../../assets/icons/reactIcon.svg'
 import gitIcon from '../../../../assets/icons/gitIcon.svg'
 import d3jsIcon from '../../../../assets/icons/d3jsIcon.png'
+import vscodeIcon from '../../../../assets/icons/vscodeIcon.svg'
 import ReactDOM from 'react-dom/client';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -51,6 +52,7 @@ export default class Skills extends React.Component{
                 <img height={70} src={html5Icon}></img>
                 <img height={70} src={jsIcon}></img>
                 <img height={70} src={javaIcon}></img>
+                <img height={60} src={vscodeIcon}></img>
                 </Col>
 
                 <Col>
